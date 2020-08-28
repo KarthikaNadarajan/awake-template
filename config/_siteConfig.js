@@ -14,10 +14,10 @@ export default {
   // tagline: '',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
-  // googleAnalytics: {
-  //   on: true,
-  //   id: process.env.GOOGLE_ANALYTICS_ID
-  // },
+  googleAnalytics: {
+    on: true,
+    id: process.env.GOOGLE_ANALYTICS_ID
+  },
   mainMenu: [
     {
       name: 'About',
