@@ -1,20 +1,19 @@
 <template>
   <div id="about-page" class="page-wrapper about-page content-page">
     <site-hero
-      title="About"
-      <!-- subtitle="Example About Page" -->
+      title="About"      
       image="/uploads/about-hero.jpg"
     ></site-hero>
     <main-section theme="sidebar-right">
       <template v-slot:default>
         <div class="content">
-          <h3>Fake Heading</h3>
+          <h3>Karthika Nadarajan</h3>
           <p>
             <strong>
-              Edit this page in<code>/pages/about.vue</code>to fit your needs.
+              Contact me @ <code>nrkarthika1998@gmail.com</code>
             </strong>
           </p>
-          <p>
+         <!--  <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
             eligendi impedit inventore ipsa laboriosam libero magnam modi odio,
             sunt temporibus. Distinctio doloremque eum magni nostrum quasi
@@ -39,10 +38,10 @@
             <strong>Alias aut facere harum ipsam</strong> quibusdam quidem
             quisquam saepe? Alias architecto blanditiis consequatur consequuntur
             dicta ipsa iste modi provident, quod, similique veritatis.
-          </p>
+          </p> -->
         </div>
 
-        <div class="tile is-ancestor">
+        <!-- <div class="tile is-ancestor">
           <div class="tile is-parent">
             <article class="tile is-child box">
               <p class="title">
@@ -81,7 +80,7 @@
                 <opti-image width="500" height="500" />
               </figure>
             </article>
-          </div>
+          </div> -->
         </div>
       </template>
 
